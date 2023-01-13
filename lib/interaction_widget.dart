@@ -25,6 +25,7 @@ class _TodoListState extends State<TodoList> {
         body: Column(
           children: [
             TextField(
+              key: const Key('campoIngreso'),
               controller: controller,
             ),
             Expanded(
